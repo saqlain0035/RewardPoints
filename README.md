@@ -66,7 +66,9 @@ The project gives the total reward points earned according to the requirements p
 - Method: GET
 - Content-type: application/json
 - Response:
+  
   [
+  
     {
         "customerId": 1,
         "name": "Saqlain Ashraf",
