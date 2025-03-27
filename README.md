@@ -112,3 +112,7 @@ The project gives the total reward points earned according to the requirements p
     }
   
 ]
+
+### Get Points Month-wise
+- URL: localhost:8080/monthlyPoints/march 2024
+- Method: 
