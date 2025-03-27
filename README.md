@@ -70,24 +70,45 @@ The project gives the total reward points earned according to the requirements p
   [
   
     {
+  
         "customerId": 1,
+  
         "name": "Saqlain Ashraf",
+  
         "phoneNo": "7870508183",
+  
         "address": "Sector 1, Airoli, Navi Mumbai",
+  
         "points": 184900
+  
     },
+  
     {
+  
         "customerId": 3,
+  
         "name": "Rohit",
+  
         "phoneNo": "0000000000",
+  
         "address": "Sector 1, Airoli, Navi Mumbai",
+  
         "points": 2560
+  
     },
+  
     {
+  
         "customerId": 52,
+  
         "name": "Saqlain Ashraf",
+  
         "phoneNo": "0000000000",
+  
         "address": "Sector 1, Airoli, Navi Mumbai",
+  
         "points": 0
+  
     }
+  
 ]
