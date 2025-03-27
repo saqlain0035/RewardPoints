@@ -40,3 +40,52 @@ The project gives the total reward points earned according to the requirements p
     "points": 0
   
 }
+### Add Transaction
+- URL: localhost:8080/transaction
+- Method: POST
+- Content-type: application/json
+- Request:
+  
+  {
+  
+    "customerId": 1,
+  
+    "productName": "Chair",
+  
+    "amount": 1200,
+  
+    "date": "2024-02-01"
+  
+}
+- Response:
+
+  Data Inserted Sucessfully
+
+### Get all Points
+- URL: localhost:8080/allPoints
+- Method: GET
+- Content-type: application/json
+- Response:
+  [
+    {
+        "customerId": 1,
+        "name": "Saqlain Ashraf",
+        "phoneNo": "7870508183",
+        "address": "Sector 1, Airoli, Navi Mumbai",
+        "points": 184900
+    },
+    {
+        "customerId": 3,
+        "name": "Rohit",
+        "phoneNo": "0000000000",
+        "address": "Sector 1, Airoli, Navi Mumbai",
+        "points": 2560
+    },
+    {
+        "customerId": 52,
+        "name": "Saqlain Ashraf",
+        "phoneNo": "0000000000",
+        "address": "Sector 1, Airoli, Navi Mumbai",
+        "points": 0
+    }
+]
