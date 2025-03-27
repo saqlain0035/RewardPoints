@@ -25,7 +25,7 @@ The project gives the total reward points earned according to the requirements p
   
     "address": "Sector 1, Airoli, Navi Mumbai"
 
-}
+  }
 - Response:
   {
   
@@ -39,7 +39,7 @@ The project gives the total reward points earned according to the requirements p
   
     "points": 0
   
-}
+  }
 ### Add Transaction
 - URL: localhost:8080/transaction
 - Method: POST
@@ -56,7 +56,7 @@ The project gives the total reward points earned according to the requirements p
   
     "date": "2024-02-01"
   
-}
+  }
 - Response:
 
   Data Inserted Sucessfully
