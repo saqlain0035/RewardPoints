@@ -18,3 +18,24 @@ The project gives the total reward points earned according to the requirements p
 | `/transaction`     | POST   | Add a new transaction               |
 | `/points`          | GET    | Get total points for all customers  |
 | `/points/monthly`  | GET    | Get monthly points for all customers|
+
+## Database Schema
+
+### Customer Table
+| Column Name  | Data Type  | Constraints |
+|-------------|-----------|-------------|
+| customer_id | BIGINT    | PRIMARY KEY, AUTO_INCREMENT |
+| name        | VARCHAR   | NOT NULL |
+| phone_no    | VARCHAR(10) | NOT NULL |
+| address     | VARCHAR   | NOT NULL |
+| points      | INT       | TRANSIENT (Not stored in DB) |
+
+
+### Transaction Table
+| Column Name    | Data Type  | Constraints |
+|---------------|-----------|-------------|
+| transaction_id | BIGINT    | PRIMARY KEY, AUTO_INCREMENT |
+| customer_id    | BIGINT    | FOREIGN KEY (References `Customer.customer_id`), NOT NULL |
+| product_name   | VARCHAR   | NOT NULL |
+| amount         | DOUBLE    | NOT NULL, POSITIVE VALUE |
+| date          | DATE      | NOT NULL, PAST OR PRESENT |
