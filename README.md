@@ -11,12 +11,14 @@ The project gives the total reward points earned according to the requirements p
 - SQL Database
 - Mokito for Testing
 ## API Endpoints
-## Add Customer
+### Add Customer
 - URL: localhost:8080/customer
 - Method: POST
 - Content-type: application/json
 - Request Body:
+
   {
+  
     "name": "Saqlain Ashraf",
     "phoneNo": "0000000000",
     "address": "Sector 1, Airoli, Navi Mumbai"
