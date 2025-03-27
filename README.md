@@ -10,7 +10,7 @@ The project gives the total reward points earned according to the requirements p
 - Spring Data JPA
 - SQL Database
 - Mokito for Testing
-# API Endpoints
+## API Endpoints
 ## Add Customer
 - URL: localhost:8080/customer
 - Method: POST
